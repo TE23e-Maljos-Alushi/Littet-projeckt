@@ -1,5 +1,5 @@
 body {
-    
+    background: url(./img/gettyimages-692234214-640x640.webp);
     background-repeat: no-repeat;
     background-size: contain;
     background-repeat: repeat-y;
@@ -34,7 +34,7 @@ body {
 
 .container {
     display: grid;
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     width: 80%;
@@ -68,6 +68,29 @@ body {
 }
 
 h2{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    font-size: larger;
+}
+h5{
+font-size: larger;
+}
+h6{
+    font-size: larger;
+}
+h7{
+    font-size: larger;
+    font: bold;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type:  none;
+    position: relative;
+}
+li{
     display: flex;
     justify-content: center;
 }
