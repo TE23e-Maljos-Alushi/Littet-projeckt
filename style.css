@@ -94,3 +94,14 @@ li{
     display: flex;
     justify-content: center;
 }
+
+.länkar{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer {
+    text-align: center;
+    color: antiquewhite;
+    background: rgba(0, 0, 0, 0.6);
+    margin-top: 10px;
+}
